@@ -818,7 +818,7 @@ class Ui_Form(object):
         file_path = "heat_demand.csv"
         demand[house_type].to_csv(file_path, index=True)
         #print("output heat demand is exported to current directory ")
-        self.plainTextEdit.setPlainText("output heat demand is exported to current directory")
+        self.plainTextEdit.setPlainText("Output heat demand is saved to current directory")
 
         for key in ann_demands_per_type:
             assert np.isclose(demand[key].sum(), ann_demands_per_type[key], rtol=1e-4)
@@ -876,7 +876,7 @@ class Ui_Form(object):
         # exporting the output file
         file_path = "elec_demand.csv"
         elec_demand_resampled[profile].to_csv(file_path, index=True)
-        self.plainTextEdit.setPlainText("output electric demand is exported to current directory")
+        self.plainTextEdit.setPlainText("Output electric demand is saved to current directory")
 
         for key in ann_el_demand_per_sector:
             assert np.isclose(
