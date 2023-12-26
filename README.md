@@ -16,3 +16,6 @@ Most of the capabilities of this tool are built to address the master thesis req
 While the Demandlib python can do much more. read documentation [https://demandlib.readthedocs.io/]
 
  You can adjust the code lines in the program according to your requirements. 
+
+![heat demand](https://github.com/vaijayanth-sheri/Demandlib_GUI/assets/132249172/1fe181b0-c112-435f-b921-370289963681)
+![electricity demand](https://github.com/vaijayanth-sheri/Demandlib_GUI/assets/132249172/0eaa5f68-5ab1-4061-ab38-be9bd6a27b65)
